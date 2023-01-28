@@ -13,4 +13,4 @@ You should say it ${numberTime} times a day and say your mantras ${duringTime}.`
 console.log(message);
 }
 
-messageGenerator();
+messageGenerator()
