@@ -1,0 +1,176 @@
+html {
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(208, 208, 233);
+    text-align: center;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.totoro {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 10.25rem; 
+
+}
+
+.totoro:after {
+    content: "";
+    position: absolute;
+    background-image: url(Resources/media/images/Background.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -9px;   
+    filter: drop-shadow(0 0 5px black);
+    border: none;
+    z-index: -1; /* Make sure the image sits below the content */ }
+
+h1 {
+    display: block;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 5rem;
+    filter: drop-shadow(0 0 0.75rem rgb(238, 235, 189));
+
+}
+
+main .totoro {
+    position: relative;
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url(resources/media/images/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: 42.5rem;
+
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 2rem;
+    color: rgb(52, 25, 88);
+}
+
+.mainContent h2 {
+    margin-top: 7rem;
+}
+h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: rgb(52, 25, 88);
+    letter-spacing: 3px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 11rem;
+}
+
+.picture {
+    vertical-align: top;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture img {
+    height: auto;
+    width: 12.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.picture span{
+    display: block;
+    padding: 1rem;
+    min-width: 16rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(17, 17, 128);
+}
+
+#artistContainer {
+    height: 34rem;
+    display: block;
+    flex-direction: column;
+    
+}
+
+#artistContainer h2 {
+    padding: 0;
+}
+
+.artist {
+    background-image: url(Resources/media/images/TotoroBright.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.artist img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5rem;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
+
+.kristi h3 {
+
+    font-size: 2rem;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 29px;
+    font-weight: bold;
+    opacity: 62%;
+    margin-right: 14.0625rem;
+    margin-left: 14.0625rem;
+}
+
+p {
+    font-size: 1.5rem;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 29px;
+    font-weight: bold;
+    opacity: 62%;
+}
+
+.contact h2 {
+    padding: 0rem;
+    padding-top: 6rem;
+}
+
+h5 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin: 1.2rem;
+} 
